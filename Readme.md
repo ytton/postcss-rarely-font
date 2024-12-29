@@ -1,6 +1,6 @@
 # PostCSS Rarely Font Plugin
 
-A **PostCSS plugin** designed to add a fallback font family (`rarelyFont`) to handle rare Chinese characters (生僻字) automatically. This package also provides static assets, including a pre-defined CSS file and a font file (`SourceHanSansSC-Regular.otf`), to make it easy to use in your projects.
+A **PostCSS plugin** designed to add a fallback font family (`rarelyFont`) to handle rare Chinese characters (生僻字) automatically. This package also provides static assets, including a pre-defined CSS file and a font file (`SourceHanSerifSC-Regular.otf`), to make it easy to use in your projects.
 
 ---
 
@@ -9,7 +9,7 @@ A **PostCSS plugin** designed to add a fallback font family (`rarelyFont`) to ha
 - Automatically appends `rarelyFont` as a fallback font family in all CSS `font-family` and `font` declarations.
 - Ensures `body` has a default font-family that includes `rarelyFont`.
 - Includes a pre-defined global CSS file (`rarelyFont.css`) to make adding rare character font support simple.
-- Provides the `SourceHanSansSC-Regular.otf` file for easy deployment.
+- Provides the `SourceHanSerifSC-Regular.otf` file for easy deployment.
 
 ---
 
@@ -73,7 +73,7 @@ This package includes the following static files:
 1. **CSS file**: `css/rarelyFont.css`  
    This file defines the `rarelyFont` font-family and sets it as the fallback font for the `body` element.
 
-2. **Font file**: `fonts/SourceHanSansSC-Regular.otf`  
+2. **Font file**: `fonts/SourceHanSerifSC-Regular.otf`  
    The font file supports rare Chinese characters (生僻字) and should be served with the CSS file.
 
 ---
@@ -117,7 +117,7 @@ p {
 
 ## Font Usage
 
-The `rarelyFont` family is included in this package to support rare Chinese characters. If you want to customize the font file, replace the `fonts/SourceHanSansSC-Regular.otf` with your desired font file and update the `css/rarelyFont.css` file accordingly.
+The `rarelyFont` family is included in this package to support rare Chinese characters. If you want to customize the font file, replace the `fonts/SourceHanSerifSC-Regular.otf` with your desired font file and update the `css/rarelyFont.css` file accordingly.
 
 ---
 

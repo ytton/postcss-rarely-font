@@ -1,7 +1,8 @@
 {
   "name": "postcss-rarely-font",
-  "version": "1.0.3",
-  "main": "index.js",
+  "version": "1.0.4",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
   "keywords": [
     "Rarely-used characters",
     "postcss",
@@ -10,12 +11,25 @@
   "author": "ytton",
   "license": "MIT",
   "files": [
-    "index.js",
-    "css/",
-    "fonts/"
+    "dist",
+    "css",
+    "fonts"
   ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ytton/postcss-rarely-font.git"
+  },
   "description": "A PostCSS plugin to add rarelyFont as a fallback font-family and provide static assets for rarely used characters.",
   "dependencies": {
     "postcss": "^8.4.49"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "rollup": "^2.79.2",
+    "rollup-plugin-terser": "^7.0.2"
   }
 }

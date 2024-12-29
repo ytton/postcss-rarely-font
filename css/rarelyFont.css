@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'rarelyFont';
+  src: url('../fonts/SourceHanSansSC-Regular.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: Arial, sans-serif, rarelyFont;
+}

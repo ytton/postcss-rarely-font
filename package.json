@@ -1,12 +1,16 @@
 {
   "name": "postcss-rarely-font",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "Rarely-used characters",
+    "postcss",
+    "postcss plugin"
+  ],
+  "author": "ytton",
   "license": "ISC",
   "description": "",
   "dependencies": {

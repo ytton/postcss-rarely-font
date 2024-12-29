@@ -2,17 +2,19 @@
   "name": "postcss-rarely-font",
   "version": "1.0.1",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "Rarely-used characters",
     "postcss",
     "postcss plugin"
   ],
   "author": "ytton",
-  "license": "ISC",
-  "description": "",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "css/",
+    "fonts/"
+  ],
+  "description": "A PostCSS plugin to add rarelyFont as a fallback font-family and provide static assets for rarely used characters.",
   "dependencies": {
     "postcss": "^8.4.49"
   }
